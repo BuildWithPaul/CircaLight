@@ -2,8 +2,6 @@
 
 Automatically adjusts your Govee smart light's brightness and color temperature based on sunset/sunrise, creating natural circadian lighting.
 
-<img width="1189" height="587" alt="Screenshot 2026-02-28 at 11 18 52" src="https://github.com/user-attachments/assets/4625b375-d4f8-4de9-86f2-a65dfa94d555" />
-
 ## Features
 
 - 🌍 Location-aware sunrise/sunset calculations
@@ -49,20 +47,9 @@ Shows a daily graph and adjusts your light. Schedule with cron:
 | Day | 100% brightness, 6500K (cool) |
 | Sunset | Gradual cool-down |
 
-## Configuration
-
-Edit these in the script:
-- `BRIGHT_MIN/MAX` - Brightness range (1-100)
-- `TEMP_MIN/MAX` - Color range in Kelvin
-- `wake_offset` - Minutes before sunrise to start
-- `sleep_offset` - Minutes after sunset to finish
-
-## Troubleshooting
-
-**Exit 127:** Use `python3 goove.py` or check your PATH  
-**Light not responding:** Verify API key and device ID in Govee app  
-**No graph:** Add `plt.savefig('flux.png')` if no display available
-
 ---
 
 Graph shows brightness and temperature throughout the day. Customize for your location and preferences!
+
+<img width="1189" height="587" alt="Screenshot 2026-02-28 at 11 18 52" src="https://github.com/user-attachments/assets/4625b375-d4f8-4de9-86f2-a65dfa94d555" />
+
