@@ -1,5 +1,3 @@
-# CircaLight
-
 # Govee Solar Flux Controller 🌅💡
 
 Automatically adjusts your Govee smart light's brightness and color temperature based on sunset/sunrise, creating natural circadian lighting.
